@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html>
     <main id="main">
- <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="base.css">
-</head>
-<body>
-<h1 id="title">Survey Form</h1>
-  <p id="description">Thank you for taking the time to help us improve India & Subcontinent Book Hub</p>
-  <form>
-    <label for="name">Name</label><br>
-    <input type="text" id="name" name="name"><br>
-    <label for="email">Email</label><br>
-    <input type="text" id="email" name="email"><br>
-    <label for="age">Age (optional)</label><br>
-    <input type="number" id="age" name="age"><br>
-    <label for="Favourite">What is your favourite book set in India & the Subcontinent?</label><br>
-    <input type="text" id="favourite" name="favourite"><br>
-   
-  </form>
-</body>
-
-</main>
+        <head>
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="description" content="">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="base.css">
+       </head>
+       <body>
+       <h1 id="title">Survey Form</h1>
+         <p id="description">Thank you for taking the time to help us improve India & the Subcontinent Book Hub</p>
+         <form>
+           <label for="name">Name</label><br>
+           <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+           <label for="email">Email</label><br>
+           <input type="text" id="email" name="email" placeholder="Enter your email"><br>
+           <label for="age">Age (optional)</label><br>
+           <input type="number" id="age" name="age" placeholder="Age"><br>
+           <label for="favourite">What is your favourite book set in India & the Subcontinent?</label><br>
+           <input type="text" id="favourite" name="favourite" placeholder="List your favourite book here..."><br>
+          <label for="Genre">What would you like to see more of on India & the Subcontinent Book Hub?</label><br>
+           <input type="radio" id="fiction" name="fiction" value="fiction">
+           <label for="fiction">Fiction</label><br>
+           <input type="radio" id="non-fiction" name="non-fiction" value="non-fiction">
+           <label for="non-fiction">Non-Fiction</label><br>
+           <input type="radio" id="biography" name="biography" value="biography">
+           <label for="biography">Biography</label><br>
+           <input type="radio" id="travelogue" name="travelogue" value="travelogue">
+           <label for="travelogue">Travelogue</label><br>
+           <label for="addition">Do you have a recommendation for a book that isn't yet on the site?</label><br>
+           <input type="text" id="addition" name="addition" placeholder="Add your recommendation here..."><br>
+           <label for="comment">Any comments or suggestions?</label><br>
+           <input type="text" id="comment" name="comment" placeholder="Enter your comment here..."><br>
+           <label for="submit"></label><br>
+           <input type="submit" id="submit" name="submit"><br>
+         </form>
+       </body>
+       
+       </main>
 </html>
